@@ -1,5 +1,10 @@
 # ReactNative_Nomad
 
+### module 설치
+```
+expo install 이용
+```
+
 ### ScrollView
 ```
 scrollview의 스타일은 contentContainterStyle 프롭으로 수정함
@@ -14,4 +19,68 @@ Dimensions.get('window').width : 화면 넓이
 Dimensions.get('window').hieght : 화면높이
 ```
 
+### Location
+```
+위치 알려주는 library
+```
 
+### Activity Indicator
+```
+Loading 표시
+```
+
+### style 추가
+```
+{{...style.style, style~}}
+```
+
+### object
+```
+object.name 으로 지정하거나 object[name]으로 지정
+const {name,name.name} = object로 여러 변수를 한번에 설정 할 수 있음 -> 구조분해 할당
+```
+
+### TouchableHighlight
+```
+touch 할때의 배경색을 설정할 수 있음
+```
+
+### TouchableWithoutFeedback
+```
+touch 할때 아무런 효과가 나타나지 않음
+```
+
+### Pressable
+```
+touchable 보다 많은 설정을 할 수 있음
+hitSlop prop으로 터치 범위를 설정 할 수 있음
+```
+
+### map
+```
+array.map((parameter)=>(
+    ~ ~ ~
+))
+map 함수 안에 `반드시` '소괄호'
+```
+
+### return null
+```
+화면에서 표시되지 않게 하려면 return null을 한다
+```
+
+### AsyncStorage
+```
+expo 의 로컬 저장소
+```
+
+### api fetch
+```
+response = fetch('url')
+object = response.json()
+```
+
+### string -> object
+```
+JSON.parse(string)
+```
