@@ -84,3 +84,18 @@ object = response.json()
 ```
 JSON.parse(string)
 ```
+
+### 어플 아이콘
+```
+app.json 수정을 통해 해결함
+로딩 화면 : splash.png
+어플 출시 아이콘 : icon.png
+즐겨찾기 웹 아이콘 : favicon.png
+안드로이드용 아이콘 : adaptive-icon
+```
+
+### Platform.OS
+```
+OS마다 호환성이 다르기 때문에
+if(Platform.OS === ~)로 각 설정을 다르게 해준다.
+```
