@@ -29,11 +29,6 @@ Dimensions.get('window').hieght : 화면높이
 Loading 표시
 ```
 
-### style 추가
-```
-{{...style.style, style~}}
-```
-
 ### object
 ```
 object.name 으로 지정하거나 object[name]으로 지정
